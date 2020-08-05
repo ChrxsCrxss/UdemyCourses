@@ -7,7 +7,7 @@
 
 <%  for (post of posts) { %>
 <h2><%= post.title %></h2>
-<p><%= post.body.slice(0,100) %> ... <a href="/posts/<%= post.title %>"><small>Read More</small></a> </p>
+<p><%= post.body.slice(0,100) %> ... <a href="/posts/<%=post._id%>"><small>Read More</small></a> </p>
 <%  } %>
 
 
