@@ -1,6 +1,14 @@
 //1. Create a new React app.
+import React from "react";
+import ReactDOM from "react-dom";
 //2. Create a App.jsx component.
+import APP from "./components/App";
+
 //3. Create a Header.jsx component that renders a <header> element
+
+
+ReactDOM.render(<APP/>, document.getElementById("root")); 
+
 //to show the Keeper App name in an <h1>.
 //4. Create a Footer.jsx component that renders a <footer> element
 //to show a copyright message in a <p> with a dynamically updated year.
