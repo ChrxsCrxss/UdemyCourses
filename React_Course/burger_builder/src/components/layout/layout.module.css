@@ -1,0 +1,15 @@
+/* By adding the .module.css extension to css style sheets,
+    we can import them as modules and resuse them without 
+    worrying about name collisions. Super easy way to 
+    write modular, reusable code and streamline styling! 
+    REMEMBER: the file extension must be .module.css, AND
+    you have to import from <filename>.module.css */
+
+.Content {
+    margin-top: 72px;
+    color: dodgerblue;   
+}
+
+.Content:hover {
+    color: tomato;  
+}
